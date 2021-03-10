@@ -407,7 +407,7 @@ var InfiniteScroll = /** @class */ (function (_super) {
     };
     InfiniteScroll.prototype.render = function () {
         var _this = this;
-        var style = __assign({ height: this.props.height || 'auto', overflow: 'auto', WebkitOverflowScrolling: 'touch' }, this.props.style);
+        var style = __assign({ height: this.props.height || 'auto', WebkitOverflowScrolling: 'touch' }, this.props.style);
         var hasChildren = this.props.hasChildren ||
             !!(this.props.children &&
                 this.props.children instanceof Array &&
