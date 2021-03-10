@@ -314,7 +314,7 @@ export default class InfiniteScroll extends Component<Props, State> {
   render() {
     const style = {
       height: this.props.height || 'auto',
-//       overflow: 'auto',
+      overflow: 'auto',
       WebkitOverflowScrolling: 'touch',
       ...this.props.style,
     } as CSSProperties;
